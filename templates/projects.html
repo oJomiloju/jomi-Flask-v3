@@ -1,0 +1,7 @@
+<div style="margin-bottom:16px; padding-bottom: 8px" class="border-bottom">
+    <h4 style="color:rgb(100,100,100); margin-bottom: 4px;">{{project.title}}</h4>
+    <p>{{project.description}}</p>
+    {% if 'githublink' in project %}
+      <p>{{project.githublink}}</p>
+    {% endif %}
+</div>
