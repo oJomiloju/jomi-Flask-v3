@@ -44,8 +44,18 @@ Projects = [
 
 
 @app.route("/")
-def hello_world():
+def Home():
     return render_template("home.html",projects = Projects)
+
+@app.route("/Resume")
+def Resume():
+    return render_template("resume.html")
+
+
+@app.route("/Blog")
+def Blog():
+    return render_template("blog.html")
+
 
 @app.route("/api/projects")
 def list_projects():
