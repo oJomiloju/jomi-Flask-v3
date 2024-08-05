@@ -5,10 +5,10 @@ app = Flask(__name__)
 Projects = [
     {
         "id": 1,
-        "title": "Three-Day Planner App",
-        "description": "A web app to help users plan and manage their tasks over a three-day period.",
-        "technologies": ["HTML", "CSS", "JavaScript", "Flask"],
-        "githublink": "https://github.com/username/three-day-planner"
+        "title": "Homework / Class Management Interface",
+        "description": " web application designed to help students manage their class schedules and homework assignments effectively. This application allows users to add, update, and delete class records as well as track homework assignments with detailed information such as due dates, submission status, and grades received. The application features user authentication to ensure secure access and personalized data management.",
+        "technologies": ["Python","Django","HTML / CSS","Bootstrap","sql","Git"],
+        "githublink": "https://github.com/oJomiloju/DJANGO-CRM"
     },
     {
         "id": 2,
